@@ -134,7 +134,7 @@ const goDeals=()=>{
               </button>
             </li>{" "}
             <li className="hover:bg-white hover:rounded-tl-2xl hover:rounded-bl-2xl hover:p-1  w-48 text-white hover:text-[#699FC9]">
-              <button onClick={()=>goDeals()}  className="flex items-center">
+              <button   className="flex items-center">
                 <img src={deals} className="md:w-5 md:h-5 w-4 h-4" alt="..." />
                 <p className=" mx-1 md:mx-3 md:text-lg text-xs">
                   Deals
@@ -179,8 +179,7 @@ const goDeals=()=>{
 
         <div className=" w-3/4 bg-gray-100 ">
         
-        <SearchUmrah/>
-          {/* {
+        <Makkah/>           {/* {
   content == 'SearchUmrah' ? <SearchUmrah/> : // if 
   content == 'GetHotel' ? <Makkah/> : // else if 
   content== 'Flight' ? <Flight/> : // else if
